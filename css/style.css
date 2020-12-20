@@ -1,0 +1,144 @@
+.overlay{
+    background-color: pink;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+.overlay form{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 50%;
+    height: 25%;
+    border: 2px solid white;
+    padding: 10px;
+    vertical-align: middle ; 
+    background-color: gray;
+}
+.overlay form .label{
+    display: block;
+    width: 100%;
+    font-size: 30px;
+    color: white;
+}
+.overlay form input[type="text"]{
+    display: block;
+    width: 100%;
+    height: 25px;
+    font-size:20px ;
+}
+.overlay form button{
+    width: 100px;
+    padding: 10px;
+    position: absolute;
+    bottom: 5px;
+    left: 45%;
+    background-color: indigo;
+    color: white;
+    font-size: 18px;
+}
+.overlay form button:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.overlay .storege {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    width: 50%;
+    height: 40%;
+    border: 2px solid white;
+    padding: 10px;
+    vertical-align: middle ; 
+    background-color: gray;    
+    overflow: scroll;
+}
+.users> span {
+    color: white;  
+    display: block;
+    padding: 2%;
+    margin-left: 2%;
+    font-size: 18px;
+    float: left;
+    width:26% ;
+    text-align: center;
+}
+.storege :first-child >span {
+    color : black;
+    font-weight:bold ;
+    font-size: 20px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+.information{
+    position:fixed;
+    top: 20px; 
+    right: 30px;
+    width: 150px;
+    height: 100;
+    border: 2px solid red;
+    padding: 10px;
+    font-size: 18px;
+}
+.result{
+    background-color: tomato;
+    color: white;
+    padding: 2px;
+    width: 40%;
+    height: 20px;
+    margin: auto;
+    margin-top: 15px;
+    font-size: 18px;
+    text-align: center;
+}
+.label{
+    color: green;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    margin: 10px;
+}
+.div_img{
+    height: 90px;
+    width: 20%;
+    margin: 10px;
+    float: left;
+    color: red;
+    font-size: 80px;
+    border: 4px solid gray;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.div_img img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0 ; 
+    left: 0;
+    display: block;
+}
+.div_img .active{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0 ; 
+    left: 0;
+    display: none;
+}
+.div_img .nactive{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0 ; 
+    left: 0;
+    display: block;
+    color:  red;
+}
