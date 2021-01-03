@@ -31,14 +31,15 @@
     font-size:20px ;
 }
 .overlay form button{
-    width: 100px;
+    width: 50%;
     padding: 10px;
-    position: absolute;
-    bottom: 5px;
-    left: 45%;
+    display: block;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
     background-color: indigo;
     color: white;
-    font-size: 18px;
+    font-size: 100%;
 }
 .overlay form button:hover{
     background-color: yellow;
@@ -79,13 +80,13 @@
 }
 .information{
     position:fixed;
-    top: 20px; 
-    right: 30px;
-    width: 150px;
+    top: 4%; 
+    right: 2%;
+    width: 12%;
     height: 100;
     border: 2px solid red;
     padding: 10px;
-    font-size: 18px;
+    font-size: 100%;
 }
 .result{
     background-color: tomato;
